@@ -1,0 +1,12 @@
+# gluonnlp==0.9.1로 맞춰줘야 에러 x
+gluonnlp==0.9.1
+pandas
+tqdm
+mxnet
+sentencepiece
+transformers
+torch
+scikit-learn
+
+# 그냥 git+https://github.com/SKTBrain/KoBERT.git 이걸로 설치하면 오류남
+git+https://github.com/SKTBrain/KoBERT.git#egg=kobert_tokenizer&subdirectory=kobert_hf
